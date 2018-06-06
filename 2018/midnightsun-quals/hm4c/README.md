@@ -26,7 +26,7 @@ So we know that the server software expects something which can be decoded as Ba
 
 Fortunately, the Python source code running the server was given as a part of the challenge. Here it is, with some of the comments removed for clarity:
 
-```
+```python
 import sys
 import base64
 from hashlib import sha256
@@ -85,13 +85,13 @@ sys.exit()
 ```
 
 Like we found out earlier, the server tries to parse the input as base64. It then passes the base64-decoded data to the function which calculates the HMAC.
-```
+```python
 data = base64.b64decode(_read())
 _write(hmac(data))
 ```
 
 Let's take a close look at the hmac function.
-```
+```python
 def hmac(x):
     val = to_int(x)
     key = to_int(FLAG)
@@ -101,7 +101,7 @@ def hmac(x):
 
 It parses the base64-decoded input as an integer, and then XORs it with the flag (also parsed as an integer). It then adds the XOR-result to the input and passes it to the function h(x). Taking a close look at the h(x) function, we can see that it essentially takes the SHA256 of the value and parses it as an integer.
 
-```
+```python
 def h(x):
     return to_int(
         sha256(str(x)).digest()
@@ -144,7 +144,7 @@ The sum ended up being the key again! This is because the XOR flips the set bit 
 
 When I found this out, I generated 256 different Base64-encoded strings of integers with exactly one digit set. Then I made a python-script which reads the strings, sends them to the server, and prints out a 1 or a 0, depending on if the previous number was returned.
 
-```
+```python
 import os
 import socket
 import sys
