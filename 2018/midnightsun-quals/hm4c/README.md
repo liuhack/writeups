@@ -1,3 +1,6 @@
+# Hm4c - crypto
+> Some n00b implemented a HMAC, I'm sure you can pwn it.
+
 NOTE: mirror of the blog post at [https://toblu302.github.io/writeup/2018/04/15/midnight-sun-ctf-hm4c-writeup.html](https://toblu302.github.io/writeup/2018/04/15/midnight-sun-ctf-hm4c-writeup.html)
 
 The following post is a writeup for the [Midnight Sun CTF](https://midnightsunctf.se/) online qualifiers. The challenge was to find an encryption key which was used to encrypt some data on a server. You were given some source code of a program, as well as an IP to a server which is running the program.
