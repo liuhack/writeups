@@ -3,7 +3,7 @@
 
 In this challenge, we need to break out of a Javascript jail. This is the source code of it:
 
-```
+```Javascript
 var readline = require('readline');
 var rl = readline.createInterface(process.stdin, process.stdout);
 
