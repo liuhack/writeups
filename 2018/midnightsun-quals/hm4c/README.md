@@ -183,7 +183,7 @@ After some time, the script printed out the following sequence:
 Reversing the digits and putting it trough some online [binary to string converter](https://codebeautify.org/binary-string-converter) revealed the flag:
 
 ```
-idnight{Th1$_1S_N0t_A_Go0D_HM4C}
+midnight{Th1$_1S_N0t_A_Go0D_HM4C}
 ```
 
 Or well, most of it. The part inside {} is all that's needed, so only getting 256 bits was quite enough.
