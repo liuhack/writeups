@@ -1,7 +1,7 @@
 # Diary - Misc
 > We found a torn diary on the ground. It seems to belong to a local boy.
 
-In this challenge, we got a git repository. The first thing we can do is trying ````git log``` and we got the following
+In this challenge, we got a git repository. The first thing we can do is trying ```git log``` and we got the following
 ```
 commit 2fec4e955704bd60292a9f9169f05c3334e555f4 (HEAD -> master)
 Author: Calle Svensson <calle.svensson@zeta-two.com>
