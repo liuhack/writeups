@@ -3,7 +3,7 @@
 
 On this challenge, we get a website and the first thing to check is robots.txt which contains:
 ```User-agent: *
-Disallow: /secret_xhrznylhiubjcdfpzfvejlnth.html ```
+Disallow: /secret_xhrznylhiubjcdfpzfvejlnth.html```
 
 Then we go to that url and we get the flag:
 
