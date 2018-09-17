@@ -6,7 +6,10 @@ We get an image with an onion on it and first thing we try to do is running steg
 This requires a password and the first thing I tried was onion which worked. The reason I tried this password was because there was an onion on the picture. Then I get a file called address.txt which contains:
 > wsqxiyhn23zdi6ia
 
-After trying a lot of tools and comparing picture with original picture without finding anything, I try to google "onion address" and then I find that this could be an onion address in Tor-browser. After downloading Tor, we go to http://wsqxiyhn23zdi6ia.onion which gives us a page that in looks like this at top:
+After trying a lot of tools and comparing picture with original picture without finding anything, I try to google "onion address" and then I find that this could be an onion address in Tor-browser. After downloading Tor, we go to
+> http://wsqxiyhn23zdi6ia.onion
+
+which gives us a page that in looks like this at top:
 
 ![encoded](https://puu.sh/Bwy2l/ecd7133746.png)
 
