@@ -3,7 +3,7 @@
 There is a server provided that combines a input message `f` with the flag `PROBLEM_KEY`, then compresses and encrypts it. The relevant code looks like this:
 
 ```
-if (f>=20):
+if (len(f)>=20):
     data = bytes((PROBLEM_KEY + f).encode('utf-8'))
     ctr = Counter.new(64, prefix=os.urandom(8))
     enc = AES.new(ENCRYPT_KEY, AES.MODE_CTR, counter=ctr).encrypt(zlib.compress(data))
