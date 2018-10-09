@@ -8,4 +8,4 @@ Then first thing I try is to grep for flag
 
 > strings rewind-rr-snp | grep flag{
 
-Then we found a fake flag and a the real flag flag{RUN_R3C0RD_ANA1YZ3_R3P3AT} in the result.
+Then we found the flag{RUN_R3C0RD_ANA1YZ3_R3P3AT} in the result.
