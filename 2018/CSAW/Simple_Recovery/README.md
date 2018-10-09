@@ -1,4 +1,4 @@
-#Simple recovery - Forensics
+# Simple recovery - Forensics
 
 We are given two RAID5 disk images and the first we tried was to recover these using OSForensics and then mount it but that gave us that it was corrupted. Then we just tried a simple grep for flag on one of the images:
 
