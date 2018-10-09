@@ -1,4 +1,4 @@
-#Ldab - Web
+# Ldab - Web
 
 On this website, we can search for users and groups and because of the hint in challenge title, we first try LDAP Injection. After checking OWASP page, we first try this injection
 
