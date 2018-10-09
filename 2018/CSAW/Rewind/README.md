@@ -1,4 +1,4 @@
-#Rewind- Forensics
+# Rewind- Forensics
 
 We are given a zip file which contains two files: rewind-rr-snp and rewind-rr-nodent.log. If we do file command on the first one, we get
 
