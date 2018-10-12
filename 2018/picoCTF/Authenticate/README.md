@@ -90,7 +90,8 @@ Dump of assembler code for function read_flag:
    0x0804871a <+54>:    nop
    0x0804871b <+55>:    leave  
    0x0804871c <+56>:    ret    
-End of assembler dump.```
+End of assembler dump.
+```
 
 Here we see this line:
 ```0x080486ea <+6>:    mov    eax,ds:0x804a04c```
