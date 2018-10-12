@@ -7,7 +7,7 @@ n: 27648161471552692194976798121921575562926832795742781625850575808536319404313
 e: 65537
 ```
 
-First thing I try is to factorize the n on [Alpertron](https://www.alpertron.com.ar/ECM.HTM) Then we get p and q:
+First thing I try is to factorize the n on [Alpertron](https://www.alpertron.com.ar/ECM.HTM). Then we get p and q:
 ```
 p = 169164339873385123585987559611932758873
 q = 163439655735047847596122332439710591236173
