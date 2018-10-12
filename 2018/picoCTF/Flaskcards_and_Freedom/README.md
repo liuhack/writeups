@@ -6,11 +6,13 @@ First we run
 ```
 g.__class__``` This returns a class object:
 > <class 'flask.ctx._AppCtxGlobals'>
+```
 
 Then we do:
 ```
 g.__class__.__mro__
-``` This returns a list of classes that ```g.__class__``` is inheriting from(mro stands for Method Resolution Order)
+```
+This returns a list of classes that ```g.__class__``` is inheriting from(mro stands for Method Resolution Order)
 > (<class 'flask.ctx._AppCtxGlobals'>, <class 'object'>)
 
 Then we need the second index there which will be [1]. After that we do:
