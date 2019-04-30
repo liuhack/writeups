@@ -1,3 +1,4 @@
+## Cryptor (500 pts) (Reversing)
 ```
 Found this string together with the attached dll file. Can you make sense of it?
 snV4POQVgfNHXr/hIaS5vkD77Sz8RkrR3JHXUkG1IAk= 
