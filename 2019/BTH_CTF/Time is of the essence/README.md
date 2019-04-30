@@ -13,7 +13,7 @@ Opening the file in IDA reveals that the binary is compiled using [MoVfuscator](
 
 <img src="https://i.imgur.com/rnz5HwD.png">
 
-The name of the challenge does however imply a side-channel attack by timing the execution of the program to bruteforce the password. However, our results from timing execution were not consisting so we tried counting the amount of syscalls that were made instead using `strace` which gave us consistent results and gave us the password `pat1enc3_p1eaz3`
+The name of the challenge does however imply a side-channel attack by timing the execution of the program to bruteforce the password. However, our results from timing execution were not consistent so we tried counting the amount of syscalls that were made instead using `strace` which gave us consistent results and gave us the password `pat1enc3_p1eaz3`
 
 ```
 ./time_is_of_the_essence pat1enc3_p1eaz3
