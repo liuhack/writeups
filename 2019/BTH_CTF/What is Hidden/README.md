@@ -1,3 +1,4 @@
+## What is Hidden (488 pts) (Misc)
 ```I think there is something more with this PDF, can you find it?
 Wrap the found flag in BTH_CTF{}
 
