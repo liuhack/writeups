@@ -1,3 +1,4 @@
+## bin01 (500 pts) (Crypto)
 ```
 We intercepted this file in Wireshark. Can you decrypt it? 
 
