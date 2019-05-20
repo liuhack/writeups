@@ -1,3 +1,5 @@
+## Password (869 pts) (Web)
+
 ![](challenge.png)
 
 Done with https://github.com/patriksletmo

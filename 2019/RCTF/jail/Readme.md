@@ -1,3 +1,5 @@
+## Jail (476 pts) (Web)
+
 ![](challenge.png)
 
 We are given access to a guestbook where we can leave messages and a feedback section where we can ask the admin to take a look at our post. However the feedback form is protected with a captcha `substr(md5(captcha), 0, 6) == "123456"`, where, according to the hint the captcha is a number between 1 and 10000000. This small python script solves that:
